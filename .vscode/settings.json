@@ -1,0 +1,10 @@
+{
+    "flake8.importStrategy": "useBundled",
+    "black-formatter.importStrategy": "fromEnvironment",
+    "flake8.cwd": "${workspaceFolder}",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
